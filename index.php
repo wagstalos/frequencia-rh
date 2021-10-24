@@ -184,16 +184,17 @@
                 <?php $template_directory = get_template_directory_uri(); ?>
                 <img class="img-fluid" src=" <?php echo $template_directory;?>/img/icon-voce.svg" />
                 <h5 class="text-uppercase mt-4" style="color: #fff;">Para você</h5>
-                <p class="mt-4">Aqui você se cadastra e tem a oportunidadereal de conseguir emprego.
+                <p class="mt-4">Aqui você se cadastra e tem a oportunidade real de conseguir emprego.
                 </p>
                 <div class="mt-4">
-                    <a href="" data-bs-toggle="modal" data-bs-target="#ex-m-3">
+                    <a href="./#depositions">
+
                         <h5>Veja os comentários</h5>
                     </a>
                 </div>
 
                 <!-- Modal 3 -->
-                <div class="modal fade " id="ex-m-3" tabindex="-1" aria-labelledby="ex-m-l-1" aria-hidden="true">
+                <!-- <div class="modal fade " id="ex-m-3" tabindex="-1" aria-labelledby="ex-m-l-1" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -206,7 +207,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
             </div>
         </div>
@@ -247,16 +248,45 @@
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
             <!-- Slides -->
+
             <div class="swiper-slide text-center">
-                <img class="rounded-circle depoimentos" src="https://i.pravatar.cc/100?img=11" alt="img cliente" />
-                <h3 class="mt-4 text-light">WPS Games</h3>
-                <p>
-                    "Obrigado Frequência RH, graças a vocês consequi contratar de forma rápida e fácil."
-                </p>
+                <div class="card-depoimentos">
+                    <img class="rounded-circle depoimentos" src="https://i.pravatar.cc/100?img=11" alt="img cliente" />
+                    <h4 class="mt-4">WPS Games</h4>
+                    <p>
+                        <em>" Obrigado Frequência RH, graças a vocês consequi contratar de forma rápida e fácil."</em>
+                    </p>
+
+                    <span>Wagner Paulo </span>
+                    <small class="text-muted">Head Tech</small>
+                </div>
+
             </div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
-            ...
+            <div class="swiper-slide text-center">
+                <div class="card-depoimentos">
+                    <img class="rounded-circle depoimentos" src="https://i.pravatar.cc/100?img=11" alt="img cliente" />
+                    <h4 class="mt-4">WPS Games</h4>
+                    <p>
+                        <em>"Obrigado Frequência RH, graças a vocês consequi contratar de forma rápida e fácil."</em>
+                    </p>
+
+                    <span>Wagner Paulo </span>
+                    <small class="text-muted">Head Tech</small>
+                </div>
+            </div>
+            <div class="swiper-slide text-center">
+                <div class="card-depoimentos">
+                    <img class="rounded-circle depoimentos" src="https://i.pravatar.cc/100?img=11" alt="img cliente" />
+                    <h4 class="mt-4">WPS Games</h4>
+                    <p>
+                        <em>"Obrigado Frequência RH, graças a vocês consequi contratar de forma rápida e fácil."</em>
+                    </p>
+
+                    <span>Wagner Paulo </span>
+                    <small class="text-muted">Head Tech</small>
+                </div>
+            </div>
+
         </div>
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
