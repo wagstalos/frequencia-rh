@@ -19,10 +19,7 @@
                     </h3>
 
                 </div>
-                <p class="lead mt-4 center " data-aos="fade-down">É super simples!
-                    <!-- <?php $template_directory = get_template_directory_uri(); ?>
-                    <img class="img-fluid" src=" <?php echo $template_directory;?>/img/arrow.svg" /> -->
-                </p>
+
 
                 <button type="button" class="btn-grad center " data-aos="fade-down">
                     <a href="#contact">
@@ -30,6 +27,10 @@
                     </a>
                 </button>
 
+                <p class="lead mt-4 center " data-aos="fade-down">É super simples!
+                    <!-- <?php $template_directory = get_template_directory_uri(); ?>
+                    <img class="img-fluid" src=" <?php echo $template_directory;?>/img/arrow.svg" /> -->
+                </p>
 
 
             </div>
