@@ -28,7 +28,7 @@
             <div class="col-md-3 mt-4">
                 <h4>Links</h4>
                 <ul class="mt-4">
-                    <li> <a href="./vagas">ver vagas</a></li>
+                    <li> <a href="./vagas">Ver vagas</a></li>
                     <li> <a href="./politica-de-privacidade-2/">Política de privacidade</a></li>
                 </ul>
 

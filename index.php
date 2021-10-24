@@ -120,15 +120,18 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h3 class="modal-title text-dark" id="ex-m-l-1">Nossa especialidade</h3>
+                                <h3 class="modal-title text-light" id="ex-m-l-1">Nossa especialidade</h3>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
-                            <div class="modal-body text-dark">
+                            <div class="modal-body text-light">
                                 <h5> Consultoria sob medida para sua empresa</h5>
 
-                                <h6>- Você está em busca de descomplicar o setor de RH e não sabe por onde começar?</h6>
-                                <h6>- A Frequência RH vai te ajudar em todas as etapas. Temos soluções personalizadas
+                                <h6 class="mt-4"> Você está em busca de descomplicar o setor de RH e não sabe por onde
+                                    começar?
+                                </h6>
+                                <h6> A Frequência RH vai te ajudar em todas as etapas. Temos soluções
+                                    personalizadas
                                     para
                                     sua empresa que cabem no seu bolso.</h6>
 
@@ -154,19 +157,19 @@
                     </a>
                 </div>
                 <!-- Modal 2 -->
-                <div class="modal fade " id="ex-m-2" tabindex="-1" aria-labelledby="ex-m-l-1" aria-hidden="true">
+                <div class="modal fade" id="ex-m-2" tabindex="-1" aria-labelledby="ex-m-l-1" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h3 class="modal-title text-dark" id="ex-m-l-1">PARA SUA EMPRESA</h3>
+                                <h3 class="modal-title text-light" id="ex-m-l-1">PARA SUA EMPRESA</h3>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
-                            <div class="modal-body text-dark">
-                                <h6>- Recrutamento e Seleção.</h6>
-                                <h6> - Implantação e Gerenciamento de todo o ator de RH (sob medida).</h6>
-                                <h6> - Atendimento on-line ao seu colaborador.</h6>
-                                <h6> - Gestão de Benefícios (convênio, vale transporte, vale alimentação.</h6>
+                            <div class="modal-body text-light">
+                                <h6> Recrutamento e Seleção.</h6>
+                                <h6> Implantação e Gerenciamento de todo o ator de RH (sob medida).</h6>
+                                <h6> tendimento on-line ao seu colaborador.</h6>
+                                <h6> Gestão de Benefícios (convênio, vale transporte, vale alimentação.</h6>
                             </div>
                         </div>
                     </div>
@@ -236,7 +239,7 @@
 <section class="container" id="depositions">
     <div class="text-center m-title">
         <!-- <p><span>Sobre</span></p> -->
-        <h2> Veja o que falam de nós!</h2>
+        <h2> Veja o que falam de nós 😊!</h2>
     </div>
 
     <!-- Slider main container -->
