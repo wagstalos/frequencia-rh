@@ -1,9 +1,7 @@
 
 <h1 align="center">Criação de Tema</h1>
 
-<h1 align="center">
-    <a href="https://blog.dpcontent.com.br/">🔗 link  do projeto</a>
-</h1>
+
 <p align="center">🚀 Criação de Tema para blog Word Press</p>
 
 <h1 align="center">
