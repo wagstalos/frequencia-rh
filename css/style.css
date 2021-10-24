@@ -510,6 +510,12 @@ header {
     font-weight: 500;
 }
 
+.arrow-banner {
+    width: 60px;
+    margin-top: -27px;
+    transform: rotate( -13deg);
+}
+
 .flip {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
@@ -561,13 +567,6 @@ header {
     background: linear-gradient( 180deg, #00020271 0%, rgb(0 0 0 / 20%) 100%);
     transition: width 2s;
 }
-
-/* .dpc-card:hover {
-    transition: width 2s;
-    background: -webkit-gradient(linear, left top, left bottom, from( #8050FB), to(rgba(255, 92, 241, 1)));
-    background: linear-gradient( 45deg, #8050FB 0%, rgb(255 92 241 / 60%) 100%);
-    color: #fff;
-} */
 
 .dpc-card img {
     margin-top: -50px;
@@ -820,7 +819,10 @@ footer a:hover {
 }
 
 @media only screen and (max-width: 750px) {
-    .s-banner img {
+    /* .s-banner img {
+        display: none;
+    } */
+    .img-hero {
         display: none;
     }
 }

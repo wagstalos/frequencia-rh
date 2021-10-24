@@ -5,14 +5,9 @@
         <div class="row align-items-center justify-content-center pt-banner">
             <div class="col-md-6 ">
                 <div class="center">
-
                     <h1 class="mt-4 tracking-in-expand " data-aos="fade-down">
                         Frequência <span> RH</span>
                     </h1>
-                    <!-- <p class="lead mt-4">
-                        Uma empresa especiliazada em RH, iremos ajudar sua empresa a contratar os melhores
-                        profissionais!
-                    </p> -->
 
                     <h3 class="lead mt-4" data-aos="fade-down">Recrutamento e Seleção com
                         <strong>especialistas</strong> no assunto.
@@ -21,25 +16,25 @@
                 </div>
 
 
-                <button type="button" class="btn-grad center " data-aos="fade-down">
+                <button type="button" class="btn-grad center mt-5" data-aos="fade-down">
                     <a href="#contact">
                         Quero saber quanto custa
                     </a>
                 </button>
 
                 <p class="lead mt-4 center " data-aos="fade-down">É super simples!
-                    <!-- <?php $template_directory = get_template_directory_uri(); ?>
-                    <img class="img-fluid" src=" <?php echo $template_directory;?>/img/arrow.svg" /> -->
+                    <?php $template_directory = get_template_directory_uri(); ?>
+                    <img class="arrow-banner" src=" <?php echo $template_directory;?>/img/arrow-banner.svg" />
                 </p>
 
 
             </div>
             <div class="col-md-6 text-center d-none d-sm-block">
                 <?php $template_directory = get_template_directory_uri(); ?>
-                <img class="img-fluid" src=" <?php echo $template_directory;?>/img/img-hero.png"
+                <img class="img-fluid img-hero" src=" <?php echo $template_directory;?>/img/img-hero.png"
                     style="position:absolute; z-index:1" />
                 <?php $template_directory = get_template_directory_uri(); ?>
-                <img class="img-fluid slide-top " src=" <?php echo $template_directory;?>/img/img-hero2.png"
+                <img class="img-fluid slide-top img-hero" src=" <?php echo $template_directory;?>/img/img-hero2.png"
                     style="position:relative; z-index:2" />
                 <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                 <lottie-player class="flip" src=" https://assets9.lottiefiles.com/packages/lf20_mxrkk5de.json"
