@@ -69,22 +69,23 @@
     </div> -->
     <div class="text-center m-title">
         <!-- <p><span>Sobre</span></p> -->
-        <h2> Quem Somos</h2>
+        <h2> Quem Somos 🧐</h2>
     </div>
     <div class="row align-items-center justify-content-center">
         <div class="col-md-6" data-aos="fade-right">
             <?php $template_directory = get_template_directory_uri(); ?>
             <img class="img-fluid" src=" <?php echo $template_directory;?>/img/img-sobre.png" />
         </div>
-        <div class="col-md-6" data-aos="zoom-in">
+        <div class="col-md-6 mt-4" data-aos="zoom-in">
             <?php $template_directory = get_template_directory_uri(); ?>
             <div class="center">
                 <img class="img-fluid" src=" <?php echo $template_directory;?>/img/icone-frequencia.svg" width="40px" />
             </div>
 
-            <h3 class="mt-4 center">Olá eu sou a Frêquencia RH</h3>
-            <p class="mt-4 center">
-                Uma empresa especiliazada em RH, iremos ajudar sua empresa a contratar os melhores profissionais!
+            <h3 class="mt-2 center">Sobre a <br> <span>Frêquencia RH</span> </h3>
+            <p class="lead mt-4 center">
+                Uma empresa especiliazada em RH, iremos ajudar sua empresa a contratar os <strong>melhores
+                    profissionais!</strong>
             </p>
         </div>
     </div>
@@ -239,7 +240,7 @@
 <section class="container" id="depositions">
     <div class="text-center m-title">
         <!-- <p><span>Sobre</span></p> -->
-        <h2> Veja o que falam de nós 😊!</h2>
+        <h2> Veja o que falam de nós 😊</h2>
     </div>
 
     <!-- Slider main container -->
@@ -304,7 +305,7 @@
 
     <div class="text-center m-title">
         <!-- <p><span>Blog</span></p> -->
-        <h2> Veja nossas dicas</h2>
+        <h2> Veja nossas dicas 😎</h2>
     </div>
 
     <div>

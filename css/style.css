@@ -542,6 +542,15 @@ header {
     max-width: 450px;
 }
 
+#s-who-we-are span {
+    font-size: 3rem;
+    font-weight: 600;
+    background: -webkit-linear-gradient( var( --main-color), var( --secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: var(--colors-blue-dark);
+}
+
 /* .s-about */
 
 .modal-dialog {
