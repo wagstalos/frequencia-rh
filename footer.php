@@ -29,6 +29,7 @@
                 <h4>Links</h4>
                 <ul class="mt-4">
                     <li> <a href="./vagas">ver vagas</a></li>
+                    <li> <a href="./politica-de-privacidade-2/">Política de privacidade</a></li>
                 </ul>
 
             </div>

@@ -68,15 +68,15 @@ button {
 }
 
 .default-header {
-    background-color: rgba(23, 55, 94, 0.9)!important;
+    /* background-color: rgb(33 44 66)!important; */
     /* backdrop-filter: blur(20px); */
     -webkit-backdrop-filter: blur(20px);
     transition: all 1s;
 }
 
 .sticky {
-    /* background-color: hsla(23, 0%, 100%, 0.63)!important; */
-    /* background-color: rgba(23, 55, 94, 0.9)!important; */
+    /* background-color: hsla(33, 0%, 100%, 0.63)!important; */
+    background-color: rgba(33, 44, 66, 0.9)!important;
     backdrop-filter: blur(20px);
     box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)!important;
     box-shadow: rgb(0 0 0 / 10%) 0px 0px 30px 0px;
@@ -89,7 +89,7 @@ button {
 .btn-grad {
     background-image: linear-gradient(to right, var(--colors-red) 0%, var(--colors-pink) 51%, var(--colors-pink) 100%);
     margin-top: 30px;
-    padding: 10px 45px;
+    padding: 15px 45px;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
@@ -286,27 +286,6 @@ nav ul li a:hover {
     padding: 4px 15px;
 }
 
-/* plugin job */
-
-/* .job-post {
-    padding-top: 90px!important;
-}
-
-.job-post .job-side .job-content-wrap {
-    background: var(--color-blue-dark-300)!important;
-    border: 2px solid #e9e9e9;
-    padding: 0 30px;
-    border-radius: 4px;
-}
-
-.jobs-modal .jobs-modal-content {
-    background: #394e6f!important;
-}
-
-.job-listing-categories .job-category {
-    color: #fff!important;
-} */
-
 /* plugin form */
 
 .wpforms-confirmation-container-full, div[submit-success]>.wpforms-confirmation-container-full:not(.wpforms-redirection-message) {
@@ -343,7 +322,12 @@ nav ul li a:hover {
 }
 
 .pt-banner {
-    padding-top: 60px;
+    padding-top: 110px;
+}
+
+.swiper {
+    width: 100%;
+    height: 300px;
 }
 
 .mr-3 {
@@ -620,7 +604,7 @@ header {
 }
 
 .box {
-    background: var(--color-blue-dark-300);
+    background: var(--main-color);
     padding: 10px;
     border-radius: 20px;
 }

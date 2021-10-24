@@ -5,12 +5,15 @@ function load_scripts(){
 	wp_enqueue_style( 'bootstrap-min', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '1.0', 'all' );
     wp_enqueue_style( 'font', 'https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&family=Poppins:wght@300;400;500;700&display=swap' );
 	wp_enqueue_style( 'style', get_template_directory_uri() . '/css/style.css' );
+	wp_enqueue_style( 'swiper', 'https://unpkg.com/swiper@7/swiper-bundle.min.css' );
+
 	// wp_enqueue_style( 'aos', 'https://unpkg.com/aos@2.3.1/dist/aos.css' );
 
 	wp_enqueue_script( 'jquery-two', get_template_directory_uri() . '/js/jquery-3.4.1.min.js');
 	wp_enqueue_script( 'jquery-modal', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js');
 	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery-two'), "5.0.2", true);
 	// wp_enqueue_script( 'aos', 'https://unpkg.com/aos@2.3.1/dist/aos.js');
+	wp_enqueue_script( 'swipee-js', 'https://unpkg.com/swiper@7/swiper-bundle.min.js');
 	wp_enqueue_script( 'main', get_template_directory_uri() . '/js/main.js',array('jquery-two'), null, true);
     
     //registra o Custom Navigate Walker

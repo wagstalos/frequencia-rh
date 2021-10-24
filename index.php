@@ -49,7 +49,6 @@
     </div>
 </section>
 
-
 <!--Waves Container-->
 <div>
     <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -214,7 +213,7 @@
     </div>
 </section>
 
-<section class="container" id="vagas" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+<section class="container" id="vagas">
 
     <div class="box d-flex align-items-center justify-content-around center">
         <h4 class="mt-4 mb-4">FIQUE DE OLHO NAS NOSSAS VAGAS: </h4>
@@ -237,16 +236,49 @@
 
 </section>
 
-<section class="container s-blog" id="s-blog" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+<section class="container" id="depositions">
+    <div class="text-center m-title">
+        <!-- <p><span>Sobre</span></p> -->
+        <h2> Veja o que falam de nós!</h2>
+    </div>
+
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide text-center">
+                <img class="rounded-circle depoimentos" src="https://i.pravatar.cc/100?img=11" alt="img cliente" />
+                <h3 class="mt-4 text-light">WPS Games</h3>
+                <p>
+                    "Obrigado Frequência RH, graças a vocês consequi contratar de forma rápida e fácil."
+                </p>
+            </div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+
+
+    </div>
+
+
+</section>
+
+<section class="container s-blog" id="s-blog">
 
     <div class="text-center m-title">
         <!-- <p><span>Blog</span></p> -->
         <h2> Veja nossas dicas</h2>
     </div>
 
-    </div>
     <div>
-
         <!-- encurtar title  -->
         <?php add_filter ('the_title', 'max_title_length'); ?>
         <?php echo do_shortcode ('[pgaf_post_filter limit="20" pgaf_post_filter all_filter_text="Todos" pgaf_post_filter grid="3"  content_words_limit="5" show_date="true" show_comments="false" show_author="false" extra_class=""]'); ?> <?php
@@ -261,7 +293,7 @@
     </div>
 </section>
 
-<section class="container s-contact" id="contact" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+<section class="container s-contact" id="contact">
     <div class="m-title text-center ">
         <!-- <p><span>Contato</span></p> -->
         <h2>Entre em contato conosco!</h2>
