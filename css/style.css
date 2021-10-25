@@ -664,7 +664,7 @@ header {
 }
 
 .card-depoimentos {
-    background-color: rgba(0, 0, 0, .075);
+    background-color: var(--color-blue-dark-300);
     height: auto;
     display: flex;
     flex-direction: column;
