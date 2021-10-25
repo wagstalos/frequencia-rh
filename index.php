@@ -15,7 +15,6 @@
 
                 </div>
 
-
                 <button type="button" class="btn-grad center mt-5" data-aos="fade-down">
                     <a href="#contact">
                         Quero saber quanto custa
@@ -31,11 +30,10 @@
             </div>
             <div class="col-md-6 text-center d-none d-sm-block">
                 <?php $template_directory = get_template_directory_uri(); ?>
-                <img class="img-fluid img-hero" src=" <?php echo $template_directory;?>/img/img-hero.png"
-                    style="position:absolute; z-index:1" />
+                <img class="img-fluid img-hero" src=" <?php echo $template_directory;?>/img/img-hero.png" />
                 <?php $template_directory = get_template_directory_uri(); ?>
-                <img class="img-fluid slide-top img-hero" src=" <?php echo $template_directory;?>/img/img-hero2.png"
-                    style="position:relative; z-index:2" />
+                <!-- <img class="img-fluid slide-top img-hero" src=" <?php echo $template_directory;?>/img/img-hero2.png"
+                    style="position:relative; z-index:2" /> -->
                 <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                 <lottie-player class="flip" src=" https://assets9.lottiefiles.com/packages/lf20_mxrkk5de.json"
                     mode="bounce" background="transparent" speed="1" style="width:100%; height: 600px;" loop autoplay>
@@ -251,7 +249,7 @@
 
             <div class="swiper-slide text-center">
                 <div class="card-depoimentos">
-                    <img class="rounded-circle depoimentos" src="https://i.pravatar.cc/100?img=11" alt="img cliente" />
+                    <img class="rounded-circle depoimentos" src="https://i.pravatar.cc/100?img=12" alt="img cliente" />
                     <h4 class="mt-4">WPS Games</h4>
                     <p>
                         <em>" Obrigado Frequência RH, graças a vocês consequi contratar de forma rápida e fácil."</em>
@@ -264,8 +262,8 @@
             </div>
             <div class="swiper-slide text-center">
                 <div class="card-depoimentos">
-                    <img class="rounded-circle depoimentos" src="https://i.pravatar.cc/100?img=11" alt="img cliente" />
-                    <h4 class="mt-4">WPS Games</h4>
+                    <img class="rounded-circle depoimentos" src="https://i.pravatar.cc/100?img=14" alt="img cliente" />
+                    <h4 class="mt-4">Empresa</h4>
                     <p>
                         <em>"Obrigado Frequência RH, graças a vocês consequi contratar de forma rápida e fácil."</em>
                     </p>
@@ -276,14 +274,14 @@
             </div>
             <div class="swiper-slide text-center">
                 <div class="card-depoimentos">
-                    <img class="rounded-circle depoimentos" src="https://i.pravatar.cc/100?img=11" alt="img cliente" />
-                    <h4 class="mt-4">WPS Games</h4>
+                    <img class="rounded-circle depoimentos" src="https://i.pravatar.cc/100?img=10" alt="img cliente" />
+                    <h4 class="mt-4">Place Star</h4>
                     <p>
                         <em>"Obrigado Frequência RH, graças a vocês consequi contratar de forma rápida e fácil."</em>
                     </p>
 
-                    <span>Wagner Paulo </span>
-                    <small class="text-muted">Head Tech</small>
+                    <span>Maria Lima</span>
+                    <small class="text-muted">Tech RH</small>
                 </div>
             </div>
 

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&display=swap');
 :root {
     --main-color: #736EFE;
     --secondary-color: #59e1ff;
@@ -781,7 +782,7 @@ footer a:hover {
 
 @media only screen and (max-width: 1440px) {
     .img-bg {
-        height: 84vh;
+        height: 100vh;
     }
 }
 
@@ -873,6 +874,9 @@ footer a:hover {
     .img-bg {
         height: 88vh;
     }
+    .modal-dialog {
+        margin-top: 50%;
+    }
 }
 
 /* animation waves */
@@ -882,7 +886,7 @@ footer a:hover {
     width: 100%;
     height: 10vh;
     margin-top: -108px;
-    margin-bottom: -17px;
+    margin-bottom: -25px;
     min-height: 50px;
     max-height: 100px;
 }
