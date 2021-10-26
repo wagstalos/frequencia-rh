@@ -3,7 +3,7 @@
 
         <div class="row mb-5">
             <div class="col-md-3 mt-4">
-                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="navbar-brand logo" width="100px">
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="navbar-brand logo" width="50px">
                     <?php 
                         $pc_custom_logo = get_theme_mod('custom_logo');
                         $logo = wp_get_attachment_image_src(  $pc_custom_logo, 'full');
@@ -41,7 +41,7 @@
                 <div class="center">
                     <a href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=5512992546556"
                         class="d-flex justify-content-center justify-content-md-start mt-4">
-                        <img class="img-fluid" src=" <?php echo $template_directory;?>/img/whatsapp.svg" />
+                        <img class="img-fluid" src=" <?php echo $template_directory;?>/img/icon-whats-color.svg" />
                         (12) 992546556
                     </a>
                 </div>
@@ -49,8 +49,14 @@
 
 
                 <a href="" class="d-flex justify-content-center justify-content-md-start mt-2">
-                    <img class="img-fluid" src=" <?php echo $template_directory;?>/img/instagram.svg" />
+                    <img class="img-fluid" src=" <?php echo $template_directory;?>/img/icon-instagram.svg" />
                     @frequeciarh
+                </a>
+
+                <a href="https://www.linkedin.com/company/frequencia-rh-consultoria/"
+                    class="d-flex justify-content-center justify-content-md-start mt-2">
+                    <img class="img-fluid" src=" <?php echo $template_directory;?>/img/icon-linkedin-color.svg" />
+                    Linkedin
                 </a>
 
             </div>

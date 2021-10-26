@@ -35,7 +35,7 @@
     <header class="container-fluid default-header" id="s-home">
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-dark">
-                <a href="<?php echo esc_url( home_url( '#' ) ); ?>" class="navbar-brand logo" width="100px">
+                <a href="<?php echo esc_url( home_url( '#' ) ); ?>" class="navbar-brand logo" width="50px">
                     <?php 
                         $pc_custom_logo = get_theme_mod('custom_logo');
                         $logo = wp_get_attachment_image_src(  $pc_custom_logo, 'full');

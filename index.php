@@ -16,7 +16,7 @@
                 </div>
 
                 <button type="button" class="btn-grad center mt-5" data-aos="fade-down">
-                    <a href="#contact">
+                    <a href="#cta">
                         Quero saber quanto custa
                     </a>
                 </button>
@@ -30,7 +30,8 @@
             </div>
             <div class="col-md-6 text-center d-none d-sm-block">
                 <?php $template_directory = get_template_directory_uri(); ?>
-                <img class="img-fluid img-hero" src=" <?php echo $template_directory;?>/img/img-hero.png" />
+                <img class="img-fluid img-hero" loading="lazy"
+                    src=" <?php echo $template_directory;?>/img/img-hero.png" />
                 <?php $template_directory = get_template_directory_uri(); ?>
                 <!-- <img class="img-fluid slide-top img-hero" src=" <?php echo $template_directory;?>/img/img-hero2.png"
                     style="position:relative; z-index:2" /> -->
@@ -72,12 +73,13 @@
     <div class="row align-items-center justify-content-center">
         <div class="col-md-6" data-aos="fade-right">
             <?php $template_directory = get_template_directory_uri(); ?>
-            <img class="img-fluid" src=" <?php echo $template_directory;?>/img/img-sobre.png" />
+            <img class="img-fluid" loading="lazy" src=" <?php echo $template_directory;?>/img/img-sobre.png" />
         </div>
         <div class="col-md-6 mt-4" data-aos="zoom-in">
             <?php $template_directory = get_template_directory_uri(); ?>
             <div class="center">
-                <img class="img-fluid" src=" <?php echo $template_directory;?>/img/icone-frequencia.svg" width="40px" />
+                <img class="img-fluid" loading="lazy" src=" <?php echo $template_directory;?>/img/icone-frequencia.svg"
+                    width="40px" />
             </div>
 
             <h3 class="mt-2 center">Sobre a <br> <span>Frêquencia RH</span> </h3>
@@ -167,7 +169,7 @@
                             <div class="modal-body text-light">
                                 <h6> Recrutamento e Seleção.</h6>
                                 <h6> Implantação e Gerenciamento de todo o ator de RH (sob medida).</h6>
-                                <h6> tendimento on-line ao seu colaborador.</h6>
+                                <h6> Atendimento on-line ao seu colaborador.</h6>
                                 <h6> Gestão de Benefícios (convênio, vale transporte, vale alimentação.</h6>
                             </div>
                         </div>
@@ -327,16 +329,14 @@
         <h2>Entre em contato conosco!</h2>
     </div>
     <div class="row">
-        <div class="col-md-6 justify-content-center mb-5">
+        <div class="col-md-6 justify-content-center mb-5" id="cta">
             <h3 class="center">Achamos os melhores profissionais com a maior rapidez!</h3>
-            <img class="img-fluid mt-4" src="<?php echo $template_directory;?>/img/profissionais.svg"
+            <img class="img-fluid mt-4" loading="lazy" src="<?php echo $template_directory;?>/img/profissionais.svg"
                 alt="contato imagem" />
         </div>
 
         <div class="col-md-6">
-
             <?php echo do_shortcode(' [wpforms id="79"] '); ?>
-
         </div>
     </div>
 

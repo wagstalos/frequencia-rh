@@ -44,7 +44,7 @@ function max_title_length( $title ) {
 function themename_custom_logo_setup() {
     $defaults = array(
     'height'      => 80,
-    'width'       => 400,
+    'width'       => 50,
     'flex-height' => true,
     'flex-width'  => true,
     'header-text' => array( 'site-title', 'site-description' ),

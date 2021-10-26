@@ -13,8 +13,8 @@
     --color-purple: #8050FB;
     --colors-blue-dark: #00335b;
     --colors-blue-dark-100: #01223c;
-    --colors-blue-dark-200: #212C42;
-    --color-blue-dark-300: #171e2d;
+    --colors-blue-dark-200: #212c42;
+    --color-blue-dark-300: #02142a;
 }
 
 * {
@@ -35,15 +35,15 @@ body {
     overflow-x: hidden;
 }
 
-/* html,
-body {
+html, body {
     overflow-x: hidden;
-} */
+}
 
 h2 {
     font-size: 2rem;
     font-weight: 600;
-    background: -webkit-linear-gradient( var( --colors-red), var( --colors-pink));
+    /* background: -webkit-linear-gradient( var( --colors-red), var( --colors-pink)); */
+    background-image: linear-gradient(to bottom right, var( --colors-red), var( --colors-pink));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: var(--colors-blue-dark);
@@ -68,6 +68,10 @@ button {
     max-width: 100%;
 }
 
+.logo {
+    width: 50px;
+}
+
 .default-header {
     /* background-color: rgb(33 44 66)!important; */
     /* backdrop-filter: blur(20px); */
@@ -77,7 +81,7 @@ button {
 
 .sticky {
     /* background-color: hsla(33, 0%, 100%, 0.63)!important; */
-    background-color: rgba(33, 44, 66, 0.9)!important;
+    background-color: var(--color-blue-dark-300)!important;
     backdrop-filter: blur(20px);
     box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)!important;
     box-shadow: rgb(0 0 0 / 10%) 0px 0px 30px 0px;
@@ -579,7 +583,7 @@ header {
 }
 
 .m-title {
-    padding: 70px 0;
+    padding: 100px 0 70px 0;
 }
 
 .dpc-card {
@@ -717,7 +721,8 @@ header {
 }
 
 .card-contact {
-    background: #192232;
+    background: var(--color-blue-dark-300);
+    ;
     display: inline-block;
     padding: 10px 20px;
     border-radius: 10px;
@@ -731,7 +736,7 @@ footer {
 }
 
 footer .d-flex img {
-    width: 20px;
+    width: 30px;
 }
 
 footer p {
@@ -797,7 +802,7 @@ footer a:hover {
         font-family: 'Montserrat Alternates', sans-serif;
     }
     .default-header {
-        background-color: rgb(33 44 66)!important;
+        background-color: #002c52;
         backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(20px);
         transition: all 1s;
