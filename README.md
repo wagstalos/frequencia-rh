@@ -25,6 +25,7 @@
 ### 🛠 Tecnologias {Technologies}
 
 As seguintes ferramentas foram usadas na construção do projeto: {The following tools were used in the construction of the project:}
+
 ![Github Html5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![Github css3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Github SASS](https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=Bootstrap&logoColor=white)
