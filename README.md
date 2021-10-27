@@ -10,7 +10,7 @@
 </h1>
 
 <h1 align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://blog.dpcontent.com.br/wp-content/uploads/2021/06/img-banner.png" />
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://frequenciarh.com.br/wp-content/themes/dpc/mg/share.jpg" />
 </h1>
 
 
