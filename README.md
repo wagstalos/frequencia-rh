@@ -14,17 +14,17 @@
 </h1>
 
 
-### Features
+###Recursos {Features}
 
-- [x] publicar vagas de emprego
-- [x] filtros por categorias
-- [x] buscar
+- [x] publicar vagas de emprego {post job vacancies}
+- [x] filtros por categorias {category filters}
+- [x] buscar {search}
 - [x] Blog 
 
 
-### 🛠 Tecnologias
+### 🛠 Tecnologias {Technologies}
 
-As seguintes ferramentas foram usadas na construção do projeto:
+As seguintes ferramentas foram usadas na construção do projeto: {The following tools were used in the construction of the project:}
 
 - [WordPress](https://br.wordpress.org/)
 - [PHP](https://developer.wordpress.org/themes/advanced-topics/child-themes/)
