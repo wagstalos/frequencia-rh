@@ -16,9 +16,10 @@
 
 ### Features
 
-- [x] publicar conteúdos
+- [x] publicar vagas de emprego
 - [x] filtros por categorias
 - [x] buscar
+- [x] Blog 
 
 
 ### 🛠 Tecnologias
