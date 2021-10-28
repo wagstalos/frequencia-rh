@@ -27,6 +27,19 @@
     <meta property="twitter:description"
         content="Uma empresa especiliazada em RH, iremos ajudar sua empresa a contratar os melhores profissionais!">
     <meta property="twitter:image" content="https://frequenciarh.com.br/wp-content/themes/dpc/img/share.jpg">
+    <meta name="google-site-verification" content="oO-WekDcaRgK1mD6UqSZjz_lIo6Ig628JvzzQL9C1ww" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GMHVWKE3NS"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-GMHVWKE3NS');
+    </script>
     <?php wp_head() ?>
 </head>
 
