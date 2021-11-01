@@ -112,9 +112,15 @@ button {
     text-decoration: none;
 }
 
+.degrade-blue {
+    background: -webkit-linear-gradient( var( --main-color), var( --secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 a {
     text-decoration: none;
-    color: var(--main-color);
+    color: var(--colors-pink);
     transition: 1s all;
 }
 

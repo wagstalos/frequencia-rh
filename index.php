@@ -107,7 +107,7 @@
             <div class="dpc-card shadow-sm mb-5">
                 <?php $template_directory = get_template_directory_uri(); ?>
                 <img class="img-fluid" src=" <?php echo $template_directory;?>/img/icon-especialidade.png" />
-                <h5 class="text-uppercase mt-4" style="color: #fff">Nossa especialidade</h5>
+                <h5 class="text-uppercase mt-4 degrade-blue">Nossa especialidade</h5>
                 <p class="mt-4">Somos uma consultoria especializada em ajudar empresas em todas as etapas de RH.
                 </p>
                 <div class="mt-4">
@@ -148,7 +148,7 @@
             <div class="dpc-card shadow-sm mb-5">
                 <?php $template_directory = get_template_directory_uri(); ?>
                 <img class="img-fluid" src=" <?php echo $template_directory;?>/img/icon-empresa.png" />
-                <h5 class="text-uppercase mt-4" style="color: #fff;">Para sua empresa</h5>
+                <h5 class="text-uppercase mt-4 degrade-blue">Para sua empresa</h5>
                 <p class="mt-4">Nosso serviços variam desde a implantação do RH até o gerenciamento completo do
                     setor.
                 </p>
@@ -183,8 +183,8 @@
             <div class="dpc-card shadow-sm mb-5" data-aos="flip-left">
                 <?php $template_directory = get_template_directory_uri(); ?>
                 <img class="img-fluid" src=" <?php echo $template_directory;?>/img/icon-voce.svg" />
-                <h5 class="text-uppercase mt-4" style="color: #fff;">Para você</h5>
-                <p class="mt-4">Aqui você se cadastra e tem a oportunidade real de conseguir emprego.
+                <h5 class="text-uppercase mt-4 degrade-blue ">Para você</h5>
+                <p class=" mt-4">Aqui você se cadastra e tem a oportunidade real de conseguir emprego.
                 </p>
                 <div class="mt-4">
                     <a href="./#depositions">
@@ -348,7 +348,9 @@
                     <img width="34px" src="<?php echo $template_directory;?>/img/icon-message.svg"
                         alt="contato imagem" />
                 </div>
-                <h5 class="text-center mt-2"><a href="mailto:contato@frequenciarh.com">contato@frequenciarh.com</a></h5>
+                <h5 class="text-center mt-2"><a
+                        href="mailto:contato@frequenciarh.com.br">contato@frequenciarh.com.br</a>
+                </h5>
             </div>
         </div>
 

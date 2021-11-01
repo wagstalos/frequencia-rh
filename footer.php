@@ -20,7 +20,7 @@
             <div class="col-md-3 mt-4">
                 <h4>Contato</h4>
                 <ul class="mt-4">
-                    <li><a href="mailto:contato@frequenciarh.com">contato@frequenciarh.com</a></li>
+                    <li><a href="mailto:contato@frequenciarh.com.br">contato@frequenciarh.com.br</a></li>
                     <li><a href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=5512992546556">(12)992546556</a></li>
                 </ul>
             </div>
@@ -38,26 +38,23 @@
                 <h4>Redes sociais</h4>
 
                 <?php $template_directory = get_template_directory_uri(); ?>
-                <div class="center">
+                <div class="center d-flex justify-content-center justify-content-md-start">
                     <a href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=5512992546556"
-                        class="d-flex justify-content-center justify-content-md-start mt-4">
+                        class="d-flex justify-content-center justify-content-md-start mt-2">
                         <img class="img-fluid" src=" <?php echo $template_directory;?>/img/icon-whats-color.svg" />
-                        (12) 992546556
+
                     </a>
+                    <a href="" class="d-flex justify-content-center justify-content-md-start mt-2">
+                        <img class="img-fluid" src=" <?php echo $template_directory;?>/img/icon-instagram.svg" />
+                    </a>
+
+                    <a href="https://www.linkedin.com/company/frequencia-rh-consultoria/"
+                        class="d-flex justify-content-center justify-content-md-start mt-2">
+                        <img class="img-fluid" src=" <?php echo $template_directory;?>/img/icon-linkedin-color.svg" />
+                    </a>
+
                 </div>
 
-
-
-                <a href="" class="d-flex justify-content-center justify-content-md-start mt-2">
-                    <img class="img-fluid" src=" <?php echo $template_directory;?>/img/icon-instagram.svg" />
-                    @frequeciarh
-                </a>
-
-                <a href="https://www.linkedin.com/company/frequencia-rh-consultoria/"
-                    class="d-flex justify-content-center justify-content-md-start mt-2">
-                    <img class="img-fluid" src=" <?php echo $template_directory;?>/img/icon-linkedin-color.svg" />
-                    Linkedin
-                </a>
 
             </div>
         </div>
