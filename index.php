@@ -82,7 +82,7 @@
                     width="40px" />
             </div>
 
-            <h3 class="mt-2 center">Sobre a <br> <span>Frêquencia RH</span> </h3>
+            <h3 class="mt-2 center">Sobre a <br> <span>Frequência RH</span> </h3>
             <p class="lead mt-4 center">
                 Uma empresa especiliazada em RH, iremos ajudar sua empresa a contratar os <strong>melhores
                     profissionais!</strong>
@@ -225,10 +225,10 @@
     <div class="mt-4">
         <div class="row">
             <div class="col-md-6">
-                <?php echo do_shortcode(' [job-postings show_filters = "true" limit="4" category="11"]  '); ?>
+                <?php echo do_shortcode(' [job-postings show_filters = "true" limit="4" category="11,15"]  '); ?>
             </div>
             <div class="col-md-6">
-                <?php echo do_shortcode(' [job-postings show_filters = "true" limit="4" category="12"]  '); ?>
+                <?php echo do_shortcode(' [job-postings show_filters = "true" limit="4" category="12,14"]  '); ?>
             </div>
         </div>
 
