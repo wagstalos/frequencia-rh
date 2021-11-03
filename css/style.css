@@ -120,7 +120,7 @@ button {
 
 a {
     text-decoration: none;
-    color: var(--colors-pink);
+    color: var(--main-color);
     transition: 1s all;
 }
 

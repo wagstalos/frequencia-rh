@@ -106,7 +106,8 @@
         <div class="col-md-4 ">
             <div class="dpc-card shadow-sm mb-5">
                 <?php $template_directory = get_template_directory_uri(); ?>
-                <img class="img-fluid" src=" <?php echo $template_directory;?>/img/icon-especialidade.png" />
+                <img class="img-fluid" src=" <?php echo $template_directory;?>/img/icon-especialidade.svg" alt="ícone
+                    especialidade" />
                 <h5 class="text-uppercase mt-4 degrade-blue">Nossa especialidade</h5>
                 <p class="mt-4">Somos uma consultoria especializada em ajudar empresas em todas as etapas de RH.
                 </p>
@@ -147,7 +148,8 @@
         <div class=" col-md-4">
             <div class="dpc-card shadow-sm mb-5">
                 <?php $template_directory = get_template_directory_uri(); ?>
-                <img class="img-fluid" src=" <?php echo $template_directory;?>/img/icon-empresa.png" />
+                <img class="img-fluid" src=" <?php echo $template_directory;?>/img/icon-empresa-new.svg"
+                    alt="ícone empresa" />
                 <h5 class="text-uppercase mt-4 degrade-blue">Para sua empresa</h5>
                 <p class="mt-4">Nosso serviços variam desde a implantação do RH até o gerenciamento completo do
                     setor.

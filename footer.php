@@ -73,7 +73,8 @@
         </div>
 
     </div>
-    <a href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=5512992546556" class="float" target="_blank">
+    <a href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=5512992546556&text=Olá,%20contato%20via%20site!"
+        class="float" target="_blank">
         <img class="img-fluid my-float" src=" <?php echo $template_directory;?>/img/btn-whatsapp.svg" />
     </a>
 </footer>
