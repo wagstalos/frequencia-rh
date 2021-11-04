@@ -1,11 +1,11 @@
 <?php get_header(); ?>
 
-<section class="img-bg">
+<section class="img-bg ">
     <div class="container s-banner">
         <div class="row align-items-center justify-content-center pt-banner">
-            <div class="col-md-6 ">
-                <div class="center">
-                    <h1 class="mt-4 tracking-in-expand " data-aos="fade-down">
+            <div class="col-md-6">
+                <div class="center ">
+                    <h1 class="mt-4 slide-in-elliptic-bottom-fwd" data-aos="fade-down">
                         Frequência <span> RH</span>
                     </h1>
 
@@ -21,7 +21,7 @@
                     </a>
                 </button>
 
-                <p class="lead mt-4 center " data-aos="fade-down">É super simples!
+                <p class="lead mt-4 center jello-horizontal " data-aos="fade-down">É super simples!
                     <?php $template_directory = get_template_directory_uri(); ?>
                     <img class="arrow-banner" src=" <?php echo $template_directory;?>/img/arrow-banner.svg" />
                 </p>
