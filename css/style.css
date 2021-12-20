@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&display=swap');
+
 :root {
     --main-color: #736EFE;
     --secondary-color: #59e1ff;
@@ -43,8 +44,7 @@ html, body {
 h2 {
     font-size: 2rem;
     font-weight: 600;
-    /* background: -webkit-linear-gradient( var( --colors-red), var( --colors-pink)); */
-    background-image: linear-gradient(to bottom right, var( --colors-red), var( --colors-pink));
+    background-image: linear-gradient(to bottom right, var(--colors-red), var(--colors-pink));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: var(--colors-blue-dark);
@@ -74,17 +74,14 @@ button {
 }
 
 .default-header {
-    /* background-color: rgb(33 44 66)!important; */
-    /* backdrop-filter: blur(20px); */
     -webkit-backdrop-filter: blur(20px);
     transition: all 1s;
 }
 
 .sticky {
-    /* background-color: hsla(33, 0%, 100%, 0.63)!important; */
-    background-color: var(--color-blue-dark-150)!important;
+    background-color: var(--color-blue-dark-150) !important;
     backdrop-filter: blur(20px);
-    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)!important;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
     box-shadow: rgb(0 0 0 / 10%) 0px 0px 30px 0px;
     transition: all 1s;
     z-index: 50;
@@ -113,7 +110,7 @@ button {
 }
 
 .degrade-blue {
-    background: -webkit-linear-gradient( var( --main-color), var( --secondary-color));
+    background: -webkit-linear-gradient(var(--main-color), var(--secondary-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -129,7 +126,6 @@ a:hover {
 }
 
 /* NAVIGATION */
-
 .navbar-dark .navbar-nav .nav-link {
     color: #ffffff;
 }
@@ -169,7 +165,7 @@ nav ul li a:hover {
 }
 
 .btn-invite {
-    background-image: linear-gradient(to right, var( --main-color), var(--secondary-color));
+    background-image: linear-gradient(to right, var(--main-color), var(--secondary-color));
     border-radius: 50px;
     padding: 0 15px 0 15px;
     -webkit-box-shadow: 0px 10px 13px -7px var(--secondary-color), 0px 18px 20px -7px rgba(229, 114, 0, 0.3);
@@ -181,7 +177,6 @@ nav ul li a:hover {
 }
 
 /* menu */
-
 .navbar-dark .navbar-toggler {
     color: rgba(255, 255, 255, 0);
     border-color: rgba(255, 255, 255, 0);
@@ -206,7 +201,7 @@ nav ul li a:hover {
     text-decoration: none;
     border-radius: 15px;
     margin-right: 5px;
-    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)!important;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
     margin-top: 10px;
 }
 
@@ -301,13 +296,12 @@ nav ul li a:hover {
 /* plugin form */
 
 .wpforms-confirmation-container-full, div[submit-success]>.wpforms-confirmation-container-full:not(.wpforms-redirection-message) {
-    background: #63ff76!important;
+    background: #63ff76 !important;
     border: 1px solid #b4d39b;
     border-radius: 15px;
 }
 
 /*  */
-
 [type=search] {
     border: var(--colors-gray-200) 1px solid;
     border-radius: 16px;
@@ -354,7 +348,7 @@ nav ul li a:hover {
 }
 
 .btn-primary {
-    background-image: linear-gradient(to right, var( --main-color), var(--secondary-color));
+    background-image: linear-gradient(to right, var(--main-color), var(--secondary-color));
     -webkit-box-shadow: 0px 10px 13px -7px var(--secondary-color), 0px 18px 20px -7px rgba(229, 114, 0, 0.3);
     box-shadow: 0px 10px 13px -7px var(--secondary-color), 0px 18px 20px -7px rgba(229, 114, 0, 0.3);
     border: none;
@@ -383,7 +377,7 @@ nav ul li a:hover {
     height: 2.8rem;
     padding: 10px;
     background: -webkit-gradient(linear, left top, left bottom, from(#000c0e71), to(rgba(53, 202, 226, 0)));
-    background: linear-gradient( 180deg, #000c0e71 0%, rgb(0 0 0 / 0%) 100%);
+    background: linear-gradient(180deg, #000c0e71 0%, rgb(0 0 0 / 0%) 100%);
     border-radius: 15px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -483,7 +477,7 @@ header {
 }
 
 .s-banner h1 span {
-    background: -webkit-linear-gradient( var( --colors-red), var( --colors-pink));
+    background: -webkit-linear-gradient(var(--colors-red), var(--colors-pink));
     -webkit-background-clip: text;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: transparent;
@@ -517,13 +511,13 @@ header {
 .arrow-banner {
     width: 60px;
     margin-top: -27px;
-    transform: rotate( -13deg);
+    transform: rotate(-13deg);
 }
 
 .arrow-banner:hover {
     margin-top: -27px;
     width: 60px;
-    transform: rotate( -13deg);
+    transform: rotate(-13deg);
 }
 
 .flip {
@@ -555,7 +549,7 @@ header {
 #s-who-we-are span {
     font-size: 3rem;
     font-weight: 600;
-    background: -webkit-linear-gradient( var( --main-color), var( --secondary-color));
+    background: -webkit-linear-gradient(var(--main-color), var(--secondary-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: var(--colors-blue-dark);
@@ -595,7 +589,7 @@ header {
     padding: 20px;
     border-radius: 35px;
     background: -webkit-gradient(linear, left top, left bottom, from(#000c0e71), to(rgba(53, 202, 226, 0)));
-    background: linear-gradient( 180deg, #00020271 0%, rgb(0 0 0 / 20%) 100%);
+    background: linear-gradient(180deg, #00020271 0%, rgb(0 0 0 / 20%) 100%);
     transition: width 2s;
 }
 
@@ -641,7 +635,7 @@ header {
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    color: var( --color-purple);
+    color: var(--color-purple);
     border-radius: 20px;
     display: block;
     border: 1px solid var(--white);
@@ -692,7 +686,7 @@ header {
 }
 
 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
-    bottom: -6px!important;
+    bottom: -6px !important;
 }
 
 /* s-blog */
@@ -727,14 +721,11 @@ header {
 
 .card-contact {
     background: var(--color-blue-dark-150);
-    ;
-    display: inline-block;
     padding: 10px 20px;
     border-radius: 10px;
 }
 
 footer {
-    /* border-top: 3px var(--main-color) solid; */
     background-color: var(--color-blue-dark-150);
     padding-top: 4.8rem;
     padding-bottom: 3.9rem;
@@ -786,7 +777,7 @@ footer a:hover {
 
 @media only screen and (min-width: 1920px) {
     .img-bg {
-        height: 70vh!important;
+        height: 70vh !important;
     }
 }
 
@@ -806,44 +797,56 @@ footer a:hover {
     .s-banner h1 {
         font-family: 'Montserrat Alternates', sans-serif;
     }
+
     .default-header {
         background-color: #002c52;
         backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(20px);
         transition: all 1s;
     }
+
     #menu li:last-child {
         margin-left: 0;
     }
+
     #search {
         display: none;
     }
+
     nav ul li {
         display: inline-block;
         margin-left: 0;
     }
+
     .s-banner p {
         font-size: 18px;
     }
+
     .s-banner span {
         font-size: 3rem;
     }
+
     .mt-70 {
         margin-top: 90px;
     }
+
     .pt-banner {
         padding-top: 130px;
     }
+
     .lead {
         font-size: 1rem;
     }
+
     .display-4 {
         font-size: 2rem;
     }
+
     .center {
         text-align: center;
         margin: 0 auto;
     }
+
     .btn-grad {
         margin-top: 40px;
         margin-bottom: 20px;
@@ -851,6 +854,7 @@ footer a:hover {
 }
 
 @media only screen and (max-width: 750px) {
+
     /* .s-banner img {
         display: none;
     } */
@@ -863,27 +867,34 @@ footer a:hover {
     .s-banner h1 {
         font-size: 3.5rem;
     }
+
     .s-banner h3 {
         font-size: 1.5rem;
     }
+
     .box {
         flex-direction: column;
     }
+
     #vagas h3 {
         margin-top: 10px;
         margin-bottom: 10px;
         text-align: center;
     }
+
     #vagas img {
         display: none;
     }
+
     #vagas button {
         margin-top: 10px;
         margin-bottom: 10px;
     }
+
     .img-bg {
         height: 88vh;
     }
+
     .modal-dialog {
         margin-top: 50%;
     }
@@ -936,6 +947,7 @@ footer a:hover {
     0% {
         transform: translate3d(-90px, 0, 0);
     }
+
     100% {
         transform: translate3d(85px, 0, 0);
     }
@@ -947,6 +959,7 @@ footer a:hover {
         min-height: 40px;
         margin-bottom: -45px;
     }
+
     .content {
         height: 30vh;
     }
@@ -963,6 +976,7 @@ footer a:hover {
         transform: translateY(-1000px);
         opacity: 0;
     }
+
     100% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
@@ -976,6 +990,7 @@ footer a:hover {
         transform: translateY(-1000px);
         opacity: 0;
     }
+
     100% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
@@ -988,9 +1003,11 @@ footer a:hover {
         letter-spacing: -0.5em;
         opacity: 0;
     }
+
     40% {
         opacity: 0.6;
     }
+
     100% {
         opacity: 1;
     }
@@ -1006,26 +1023,32 @@ footer a:hover {
         -webkit-transform: scale3d(1, 1, 1);
         transform: scale3d(1, 1, 1);
     }
+
     30% {
         -webkit-transform: scale3d(1.25, 0.75, 1);
         transform: scale3d(1.25, 0.75, 1);
     }
+
     40% {
         -webkit-transform: scale3d(0.75, 1.25, 1);
         transform: scale3d(0.75, 1.25, 1);
     }
+
     50% {
         -webkit-transform: scale3d(1.15, 0.85, 1);
         transform: scale3d(1.15, 0.85, 1);
     }
+
     65% {
         -webkit-transform: scale3d(0.95, 1.05, 1);
         transform: scale3d(0.95, 1.05, 1);
     }
+
     75% {
         -webkit-transform: scale3d(1.05, 0.95, 1);
         transform: scale3d(1.05, 0.95, 1);
     }
+
     100% {
         -webkit-transform: scale3d(1, 1, 1);
         transform: scale3d(1, 1, 1);
@@ -1037,26 +1060,32 @@ footer a:hover {
         -webkit-transform: scale3d(1, 1, 1);
         transform: scale3d(1, 1, 1);
     }
+
     30% {
         -webkit-transform: scale3d(1.25, 0.75, 1);
         transform: scale3d(1.25, 0.75, 1);
     }
+
     40% {
         -webkit-transform: scale3d(0.75, 1.25, 1);
         transform: scale3d(0.75, 1.25, 1);
     }
+
     50% {
         -webkit-transform: scale3d(1.15, 0.85, 1);
         transform: scale3d(1.15, 0.85, 1);
     }
+
     65% {
         -webkit-transform: scale3d(0.95, 1.05, 1);
         transform: scale3d(0.95, 1.05, 1);
     }
+
     75% {
         -webkit-transform: scale3d(1.05, 0.95, 1);
         transform: scale3d(1.05, 0.95, 1);
     }
+
     100% {
         -webkit-transform: scale3d(1, 1, 1);
         transform: scale3d(1, 1, 1);
@@ -1071,9 +1100,11 @@ footer a:hover {
     0% {
         transform: translateY(0);
     }
+
     66% {
         transform: translateY(-15px);
     }
+
     100% {
         transform: translateY(0);
     }
@@ -1092,6 +1123,7 @@ footer a:hover {
         transform-origin: 50% 100%;
         opacity: 0;
     }
+
     100% {
         -webkit-transform: translateY(0) rotateX(0) scale(1);
         transform: translateY(0) rotateX(0) scale(1);
@@ -1109,6 +1141,7 @@ footer a:hover {
         transform-origin: 50% 100%;
         opacity: 0;
     }
+
     100% {
         -webkit-transform: translateY(0) rotateX(0) scale(1);
         transform: translateY(0) rotateX(0) scale(1);

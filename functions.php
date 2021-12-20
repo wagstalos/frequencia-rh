@@ -37,8 +37,7 @@ function max_title_length( $title ) {
 	} else {
 	return $title;
 	}
-	}
-
+}
 
 //logo
 function themename_custom_logo_setup() {
@@ -71,7 +70,6 @@ function prototipo_config(){
 
 add_action( 'after_setup_theme', 'prototipo_config',0 );
 
-
 //widgets
 add_action( 'widgets_init', 'prototipo_sidebars' );
 function prototipo_sidebars(){
@@ -97,7 +95,6 @@ function prototipo_sidebars(){
 			'after_title' => '</h2>',
 		)
 	);
-
 	register_sidebar(
 		array(
 			'name' => 'Título Principal',
@@ -109,7 +106,6 @@ function prototipo_sidebars(){
 			'after_title' => '</h2>',
 		)
 	);
-
 	register_sidebar(
 		array(
 			'name' => 'Text Principal',
@@ -121,7 +117,6 @@ function prototipo_sidebars(){
 			'after_title' => '</p>',
 		)
 	);
-	
 	register_sidebar(
 		array(
 			'name' => 'Título Sobre',
@@ -133,7 +128,6 @@ function prototipo_sidebars(){
 			'after_title' => '</h2>',
 		)
 	);
-
 	register_sidebar(
 		array(
 			'name' => 'Título Blog',
