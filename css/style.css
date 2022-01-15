@@ -447,7 +447,6 @@ header {
     z-index: 10;
     position: fixed;
     top: 0;
-    /* background-color: var(--colors-blue-dark); */
     border-bottom: #ffffff29 1px solid;
     padding: 10px;
 }
@@ -458,8 +457,6 @@ header {
     width: 100%;
     height: 100vh;
     background: url(../img/img-bg.jpg) no-repeat center center;
-    /* background-color: #21D4FD;
-    background-image: linear-gradient(19deg, #00039b 0%, #B721FF 100%); */
     margin-top: -11px;
 }
 
@@ -468,7 +465,6 @@ header {
     color: #FFF;
     line-height: 1;
     font-weight: 600;
-    /* background: -webkit-linear-gradient( var(--main-color), var(--secondary-color)); */
     background-color: transparent;
     -webkit-text-fill-color: transparent;
     font-size: 4.5rem;
@@ -541,11 +537,6 @@ header {
 }
 
 /* s-who-we-are */
-
-#s-who-we-are .row p {
-    max-width: 450px;
-}
-
 #s-who-we-are span {
     font-size: 3rem;
     font-weight: 600;
@@ -556,7 +547,6 @@ header {
 }
 
 /* .s-about */
-
 .modal-dialog {
     max-width: 500px;
     margin: 1.75rem auto;
@@ -582,7 +572,14 @@ header {
 }
 
 .m-title {
-    padding: 100px 0 70px 0;
+    padding: 100px 0 40px 0;
+}
+
+.flex-wps {
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .dpc-card {
@@ -591,6 +588,7 @@ header {
     background: -webkit-gradient(linear, left top, left bottom, from(#000c0e71), to(rgba(53, 202, 226, 0)));
     background: linear-gradient(180deg, #00020271 0%, rgb(0 0 0 / 20%) 100%);
     transition: width 2s;
+    height: 280px;
 }
 
 .dpc-card img {
@@ -659,8 +657,7 @@ header {
 #depositions img {
     -webkit-box-shadow: 5px 10px 40px -10px var(--secondary-color);
     box-shadow: 5px 10px 40px -10px var(--secondary-color);
-    border: solid 2px var(--secondary-color);
-    width: 70px;
+    width: 225px;
 }
 
 #depositions h4 {
@@ -682,7 +679,7 @@ header {
 
 .swiper {
     width: 100%;
-    height: 360px;
+    height: 150px;
 }
 
 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
@@ -701,6 +698,7 @@ header {
     position: absolute;
     right: 0;
     opacity: 0.5;
+    display: none;
 }
 
 /* contato */
@@ -727,7 +725,7 @@ header {
 
 footer {
     background-color: var(--color-blue-dark-150);
-    padding-top: 4.8rem;
+    padding-top: 1.8rem;
     padding-bottom: 3.9rem;
 }
 
@@ -774,7 +772,6 @@ footer a:hover {
 }
 
 /* responsive */
-
 @media only screen and (min-width: 1920px) {
     .img-bg {
         height: 70vh !important;
@@ -897,6 +894,10 @@ footer a:hover {
 
     .modal-dialog {
         margin-top: 50%;
+    }
+
+    .circle {
+        display: block;
     }
 }
 

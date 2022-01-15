@@ -2,7 +2,7 @@
     <div class="container center">
 
         <div class="row mb-5">
-            <div class="col-md-3 mt-4">
+            <div class="col-md-4 mt-4 d-flex">
                 <a href="<?php echo esc_url(
                     home_url('/')
                 ); ?>" class="navbar-brand logo" width="50px">
@@ -26,24 +26,21 @@
                 </a>
                 <p>Uma empresa especiliazada em RH, iremos ajudar sua empresa a contratar os melhores profissionais!</p>
             </div>
-            <div class="col-md-3 mt-4">
+            <div class="col-md-4 mt-4">
                 <h4>Contato</h4>
                 <ul class="mt-4">
-                    <li><a href="mailto:contato@frequenciarh.com.br">contato@frequenciarh.com.br</a></li>
-                    <li><a href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=5512992546556">(12)992546556</a></li>
+                    <li class="mt-2"><a href="mailto:contato@frequenciarh.com.br">contato@frequenciarh.com.br</a></li>
+                    <li class="mt-2"><a href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=5512992546556">(12)992546556</a></li>
                 </ul>
             </div>
-
-            <div class="col-md-3 mt-4">
+            <!-- <div class="col-md-3 mt-4">
                 <h4>Links</h4>
                 <ul class="mt-4">
                     <li> <a href="./vagas">Ver vagas</a></li>
                     <li> <a href="./politica-de-privacidade-2/">Política de privacidade</a></li>
                 </ul>
-
-            </div>
-
-            <div class="col-md-3 mt-4">
+            </div> -->
+            <div class="col-md-4 mt-4">
                 <h4>Redes sociais</h4>
 
                 <?php $template_directory = get_template_directory_uri(); ?>
@@ -63,7 +60,8 @@
                     </a>
 
                 </div>
-
+                
+                <h6 class="mt-5"> <a href="./politica-de-privacidade-2/">Política de privacidade</a></h6>
 
             </div>
         </div>
